@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_margin="30dp">
+
+    <ImageView
+        android:layout_width="@dimen/largura_200"
+        android:layout_height="@dimen/altura_150"
+        android:contentDescription="@string/descricao_imagem_midnight"
+        android:src="@drawable/midgospel"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView_boas_vindas"
+        android:layout_width="@dimen/largura_200"
+        android:layout_height="@dimen/altura_100"
+        android:textSize="@dimen/tamanhoTexto_30"
+        android:textColor="@color/cor_primaria_roxo"
+        android:text="@string/boas_vindas"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textView_nosso_nome"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:textSize="40sp"
+        android:textColor="@color/cor_secundaria_verde"
+        android:text="@string/nosso_nome"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+    <!-- COMENTÁRIOS
+    * wrap_content -> O tamanho do "container" é o mesmo do tamanho da palavra. Se eu
+    coloco o componente "leandro" e determino que sua width será wrap_content, estou
+    dizendo que o meu container que tem o meu nome dentro, terá o mesmo tamanho de
+    seu conteúdo, no caso, o nome leandro.
+
+    *
+    -->

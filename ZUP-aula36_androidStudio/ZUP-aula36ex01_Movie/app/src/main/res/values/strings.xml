@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Filme</string>
+    <string name="nome_filme">Captain Fantastic</string>
+    <string name="descricao_imagem_filme">Poster de Cartaz do filme Capitain Fantastic</string>
+    <string name="botaoMensagem">Avaliação</string>
+    <string name="titulo_botao_detalhe_filme">Sinopse</string>
+    <string name="titulo_detalhe_filme">DETALHE FILME</string>
+</resources>

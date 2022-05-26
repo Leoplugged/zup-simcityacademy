@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalheFilme">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sinopse. Ben (Viggo Mortensen) tem seis filhos com quem vive longe da civilização, no meio da floresta, numa rígida rotina de aventuras. As crianças lutam, escalam, leem obras clássicas, debatem, caçam e praticam duros exercícios, tendo a autossuficiência sempre como palavra de ordem."
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/margem_10"
+        android:layout_gravity="center"/>
+</LinearLayout>
