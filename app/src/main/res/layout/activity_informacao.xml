@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".informacao.InformacaoActivity">
+
+    <!-- TODO adicionar título da página -->
+    <!-- TODO [OK] adicionar circleImageView -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_margin="@dimen/margem_16"
+        android:src="@drawable/capelo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--TODO [OK] adicionar o textView para recuperar nome de Alune -->
+    <TextView
+        android:id="@+id/tvNomeAlune"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margem_16"
+        android:layout_marginEnd="@dimen/margem_16"
+        android:text="@string/nome_alune"
+        android:textSize="@dimen/fonte_24"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <!--TODO [OK] adicionar o textView para recuperar notas de Alune -->
+    <TextView
+        android:id="@+id/tvMediaAlune"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exemplo_media"
+        android:textSize="@dimen/fonte_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <!--TODO [OK] adicionar o textView para mostrar resultado final -->
+    <TextView
+        android:id="@+id/tvMensagem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mensagem_aprovacao"
+        android:textColor="@color/cian_700"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margem_16"
+        android:textSize="@dimen/fonte_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvMediaAlune"
+        app:layout_constraintTop_toBottomOf="@+id/tvMediaAlune" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
